@@ -70,13 +70,13 @@ public class register extends AppCompatActivity {
 
             switch(gen_id){
                 case R.id.male :
-                    user_gender = "male";
+                    user_gender = "Male";
                     break;
                 case R.id.female :
-                    user_gender = "female";
+                    user_gender = "Female";
                     break;
                 case R.id.other :
-                    user_gender = "other";
+                    user_gender = "Other";
                     break;
                 default :
                     user_gender = "NA";
@@ -93,33 +93,34 @@ public class register extends AppCompatActivity {
 
 
             startActivity(new Intent(getApplicationContext(),login.class));
+            finish();
         }
     }
 
     private boolean correct(){
         if(name.getText().toString().equals("")){
-            txtName.setText("Enter Name");
+            txtName.setText("Enter Name...");
             return false;
         }
         if(email.getText().toString().equals("")){
-            txtEmail.setText("Enter Email");
+            txtEmail.setText("Enter Email...");
             return false;
         }
         if(password.getText().toString().equals("")){
-            txtPassword.setText("Enter Password");
+            txtPassword.setText("Enter Password...");
             return false;
         }
         if(confirm_password.getText().toString().equals("")){
-            txtConfirmPassword.setText("Re-enter Password");
+            txtConfirmPassword.setText("Re-enter Password...");
             return false;
         }
 
         if(confirm_password.getText().toString().length()<6){
-            txtConfirmPassword.setText("Password must contain minimum 6 characters");
+            txtConfirmPassword.setText("Password must contain minimum 6 characters...");
             return false;
         }
         if(!password.getText().toString().equals(confirm_password.getText().toString())){
-            txtConfirmPassword.setText("Password is not matching");
+            txtConfirmPassword.setText("Password is not matching. Please, enter correct Password...");
             return false;
         }
 
@@ -128,5 +129,6 @@ public class register extends AppCompatActivity {
 
     public void login_click(View view) {
         startActivity(new Intent(getApplicationContext(),login.class));
+        finish();
     }
 }

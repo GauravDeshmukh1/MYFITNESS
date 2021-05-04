@@ -50,6 +50,7 @@ public class login extends AppCompatActivity {
 
     public void register(View view) {
         startActivity(new Intent(getApplicationContext(),register.class));
+        finish();
     }
 
     public void loginbtn(View view) {
@@ -63,12 +64,19 @@ public class login extends AppCompatActivity {
                 public void onDataChange(@NonNull DataSnapshot snapshot) {
 
                     if(snapshot.exists()){
-                        String dbuser , dbpassword;
+                        String dbuser , dbpassword , dbemail , dbgender ;
                         dbuser = snapshot.child("user_name").getValue().toString();
-                        dbpassword =snapshot.child("user_password").getValue().toString();
+                        dbpassword = snapshot.child("user_password").getValue().toString();
+                        dbemail = snapshot.child("user_email").getValue().toString();
+                        dbgender = snapshot.child("user_gender").getValue().toString();
 
                         if(user_name.equals(dbuser)&&user_password.equals(dbpassword)){
-                            startActivity(new Intent(login.this, main_courses.class));
+                            //startActivity(new Intent(login.this, main_courses.class));
+                            Intent intent = new Intent(login.this, main_courses.class);
+                            intent.putExtra("db_user", dbuser);
+                            intent.putExtra("db_email", dbemail);
+                            intent.putExtra("db_gender", dbgender);
+                            startActivity(intent);
                             finish();
                         }
                         else{
@@ -94,11 +102,11 @@ public class login extends AppCompatActivity {
 
     private boolean correct(){
         if(name.getText().toString().equals("")){
-            email_tv.setText("Enter User Name");
+            email_tv.setText("Enter User Name...");
             return false;
         }
         if(password.getText().toString().equals("")){
-            pass_tv.setText("Enter Password");
+            pass_tv.setText("Enter Password...");
             return false;
         }
 

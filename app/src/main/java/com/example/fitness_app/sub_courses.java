@@ -39,7 +39,7 @@ public class sub_courses extends AppCompatActivity {
 
         switch (sub_button)
         {
-            case 0:
+            case R.drawable.weight_loss_:
                 getSupportActionBar().setTitle(R.string.wieght_loss_workout);
                 list.add(new sub_course_model(R.drawable.abdominal_crunches, R.string.abdominal_crunches));
                 list.add(new sub_course_model(R.drawable.arm_scissors, R.string.arm_scissors));
@@ -58,7 +58,7 @@ public class sub_courses extends AppCompatActivity {
                 list.add(new sub_course_model(R.drawable.squats, R.string.squats));
                 break;
 
-            case 1:
+            case R.drawable.full_bdy:
                 getSupportActionBar().setTitle(R.string.full_body_workout);
                 list.add(new sub_course_model(R.drawable.jumping_jack, R.string.jumping_jack));
                 list.add(new sub_course_model(R.drawable.inclinepushup, R.string.incline_push_ups));
@@ -70,7 +70,7 @@ public class sub_courses extends AppCompatActivity {
                 list.add(new sub_course_model(R.drawable.cheststretch, R.string.chest_stertch));
                 break;
 
-            case 2:
+            case R.drawable.arm_bignner:
                 getSupportActionBar().setTitle(R.string.arm_beginner);
                 list.add(new sub_course_model(R.drawable.arm_raises, R.string.arm_raises));
                 list.add(new sub_course_model(R.drawable.side_arm_raises, R.string.side_arm_raises));
@@ -90,7 +90,7 @@ public class sub_courses extends AppCompatActivity {
                 list.add(new sub_course_model(R.drawable.standing_biceps_stretch_right, R.string.standing_biceps_stretch_right));
                 break;
 
-            case 3:
+            case R.drawable.arm_intermediate_bdy:
                 getSupportActionBar().setTitle(R.string.arm_intermediate);
                 list.add(new sub_course_model(R.drawable.arm_circles_clockwise, R.string.arm_circles_clockwise));
                 list.add(new sub_course_model(R.drawable.arm_circles_counter_clockwise, R.string.arm_circles_counter_clockwise));
@@ -109,7 +109,7 @@ public class sub_courses extends AppCompatActivity {
                 list.add(new sub_course_model(R.drawable.standing_biceps_stretch_right, R.string.standing_biceps_stretch_right));
                 break;
 
-            case 4:
+            case R.drawable.arm_advance_bdy:
                 getSupportActionBar().setTitle(R.string.arm_advance);
                 list.add(new sub_course_model(R.drawable.arm_circles_clockwise, R.string.arm_circles_clockwise));
                 list.add(new sub_course_model(R.drawable.arm_circles_counter_clockwise, R.string.arm_circles_counter_clockwise));
@@ -132,7 +132,7 @@ public class sub_courses extends AppCompatActivity {
                 list.add(new sub_course_model(R.drawable.standing_biceps_stretch_right, R.string.standing_biceps_stretch_right));
                 break;
 
-            case 5:
+            case R.drawable.shoulder_back_bignner:
                 getSupportActionBar().setTitle(R.string.shoulder_and_back_beginner);
                 list.add(new sub_course_model(R.drawable.jumping_jack, R.string.jumping_jack));
                 list.add(new sub_course_model(R.drawable.arm_scissors, R.string.arm_raises));
@@ -147,7 +147,7 @@ public class sub_courses extends AppCompatActivity {
                 list.add(new sub_course_model(R.drawable.abdominal_crunches, R.string.childs_pose));
                 break;
 
-            case 6:
+            case R.drawable.shoulder_back_intermediate_bdy:
                 getSupportActionBar().setTitle(R.string.shoulder_and_back_intermediate);
                 list.add(new sub_course_model(R.drawable.jumping_jack, R.string.jumping_jack));
                 list.add(new sub_course_model(R.drawable.inclinepushup, R.string.incline_push_ups));
@@ -164,7 +164,7 @@ public class sub_courses extends AppCompatActivity {
                 list.add(new sub_course_model(R.drawable.abdominal_crunches, R.string.childs_pose));
                 break;
 
-            case 7:
+            case R.drawable.shoulder_back_advance_bdy:
                 getSupportActionBar().setTitle(R.string.shoulder_and_back_advance);
                 list.add(new sub_course_model(R.drawable.jumping_jack, R.string.jumping_jack));
                 list.add(new sub_course_model(R.drawable.abdominal_crunches, R.string.hyperextension));
@@ -179,7 +179,7 @@ public class sub_courses extends AppCompatActivity {
                 list.add(new sub_course_model(R.drawable.abdominal_crunches, R.string.childs_pose));
                 break;
 
-            case 8:
+            case R.drawable.chest_bignner_bdy:
                 getSupportActionBar().setTitle(R.string.chest_beginner);
                 list.add(new sub_course_model(R.drawable.jumping_jack, R.string.jumping_jack));
                 list.add(new sub_course_model(R.drawable.inclinepushup, R.string.incline_push_ups));
@@ -192,7 +192,7 @@ public class sub_courses extends AppCompatActivity {
                 list.add(new sub_course_model(R.drawable.cheststretch, R.string.chest_stertch));
                 break;
 
-            case 9:
+            case R.drawable.chest_intermediate_bdy:
                 getSupportActionBar().setTitle(R.string.chest_intermediate);
                 list.add(new sub_course_model(R.drawable.jumping_jack, R.string.jumping_jack));
                 list.add(new sub_course_model(R.drawable.knee_push_ups, R.string.knee_push_ups));
@@ -206,7 +206,7 @@ public class sub_courses extends AppCompatActivity {
                 list.add(new sub_course_model(R.drawable.cheststretch, R.string.chest_stertch));
                 break;
 
-            case 10:
+            case R.drawable.chest_advance_bdy:
                 getSupportActionBar().setTitle(R.string.chest_advance);
                 list.add(new sub_course_model(R.drawable.jumping_jack, R.string.jumping_jack));
                 list.add(new sub_course_model(R.drawable.hindu_push_ups, R.string.hindu_push_ups));
@@ -219,7 +219,7 @@ public class sub_courses extends AppCompatActivity {
                 list.add(new sub_course_model(R.drawable.cheststretch, R.string.chest_stertch));
                 break;
 
-            case 11:
+            case R.drawable.abs_bignner:
                 getSupportActionBar().setTitle(R.string.abs_beginner);
                 list.add(new sub_course_model(R.drawable.jumping_jack, R.string.jumping_jack));
                 list.add(new sub_course_model(R.drawable.abdominal_crunches, R.string.abdominal_crunches));
@@ -233,7 +233,7 @@ public class sub_courses extends AppCompatActivity {
                 list.add(new sub_course_model(R.drawable.spine_lumbar_right, R.string.spine_lumber_twist_strech_right));
                 break;
 
-            case 12:
+            case R.drawable.abs_intermediate_bdy:
                 getSupportActionBar().setTitle(R.string.abs_intermediate);
                 list.add(new sub_course_model(R.drawable.jumping_jack, R.string.jumping_jack));
                 list.add(new sub_course_model(R.drawable.helltouches, R.string.heel_touch));
@@ -254,7 +254,7 @@ public class sub_courses extends AppCompatActivity {
                 list.add(new sub_course_model(R.drawable.spine_lumbar_right, R.string.spine_lumber_twist_strech_right));
                 break;
 
-            case 13:
+            case R.drawable.abs_advance_bdy:
                 getSupportActionBar().setTitle(R.string.abs_advance);
                 list.add(new sub_course_model(R.drawable.jumping_jack, R.string.jumping_jack));
                 list.add(new sub_course_model(R.drawable.sit_ups, R.string.sit_ups));
@@ -277,7 +277,7 @@ public class sub_courses extends AppCompatActivity {
                 list.add(new sub_course_model(R.drawable.spine_lumbar_right, R.string.spine_lumber_twist_strech_right));
                 break;
 
-            case 14:
+            case R.drawable.lower_bdy:
                 getSupportActionBar().setTitle(R.string.lower_body_workout);
                 list.add(new sub_course_model(R.drawable.jumping_jack, R.string.jumping_jack));
                 list.add(new sub_course_model(R.drawable.squats, R.string.squats));
@@ -292,7 +292,7 @@ public class sub_courses extends AppCompatActivity {
                 list.add(new sub_course_model(R.drawable.kneetochestright, R.string.knee_to_chest_stretch_right));
                 break;
 
-            case 15:
+            case R.drawable.leg_bigger_bdy:
                 getSupportActionBar().setTitle(R.string.leg_beginner);
                 list.add(new sub_course_model(R.drawable.side_hop, R.string.side_hop));
                 list.add(new sub_course_model(R.drawable.squats, R.string.squats));
@@ -311,7 +311,7 @@ public class sub_courses extends AppCompatActivity {
                 list.add(new sub_course_model(R.drawable.abdominal_crunches, R.string.calf_stretch_right));
                 break;
 
-            case 16:
+            case R.drawable.leg_intermediate_bdy:
                 getSupportActionBar().setTitle(R.string.leg_intermediate);
                 list.add(new sub_course_model(R.drawable.squats, R.string.squats));
                 list.add(new sub_course_model(R.drawable.abdominal_crunches, R.string.fire_hydrant_left));
@@ -333,7 +333,7 @@ public class sub_courses extends AppCompatActivity {
                 list.add(new sub_course_model(R.drawable.abdominal_crunches, R.string.calf_stretch_right));
                 break;
 
-            case 17:
+            case R.drawable.leg_advance_bdy:
                 getSupportActionBar().setTitle(R.string.leg_advance);
                 list.add(new sub_course_model(R.drawable.burpees, R.string.burpees));
                 list.add(new sub_course_model(R.drawable.squats, R.string.squats));

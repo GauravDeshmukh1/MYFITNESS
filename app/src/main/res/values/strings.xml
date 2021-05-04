@@ -1,20 +1,18 @@
 <resources>
     <string name="app_name">Home Workout</string>
-    <string name="slogan">Commit to be fit...</string>
-    <string name="title_activity_menu">menu</string>
+    <string name="slogan">Commit to be fit ...</string>
     <string name="navigation_drawer_open">Open navigation drawer</string>
     <string name="navigation_drawer_close">Close navigation drawer</string>
-    <string name="nav_header_title">Android Studio</string>
-    <string name="nav_header_subtitle">android.studio@android.com</string>
-    <string name="nav_header_desc">Navigation header</string>
-    <string name="action_settings">Settings</string>
+
+    //About Us
+    <string name="about_info">Application Information</string>
     <string name="app_info">\n\tWe want to help you live a fit and healthy lifestyle! We do this by providing you many such workouts. We believe that building a positive culture is incredibly important. \n\n\tWe work hard to ensure we have strong relationships with our customers, bringing you the best possible workouts. We are an ambitious company and we’re always looking for great people to join our team. \n\n\tWe combine different types of fitness exercises to meet different fitness needs and levels. Our awesome team is always keen to help, so please call us to discuss your needs.\n</string>
-    <string name="contribution">\n\tGaikwad Dipak\n\tHambir Akshay\n\tGandhi Kalpesh\n\tChavhan Shantanu\n</string>
+    <string name="about_team">Contributors</string>
+    <string name="contribution">\tDeshmukh Gaurav\n\tSingh Ajay\n\tKarhekar Pratik\n\tRaut Poonam\n</string>
 
     // MENU items
     <string name="Workout">Workout</string>
     <string name="Timer">Stop Watch</string>
-    <string name="Log_Out">Log Out</string>
 
     //WORKOUT COURSES
     <string name="wieght_loss_workout">Wieght Loss Workout</string>
@@ -369,6 +367,7 @@
     <string name="leaning_stretcher_raises_benefit">\n1.	Increases flexibility in the inner thighs, hips and groins.\n2.	Helps in smooth delivery if practiced regular until late pregnancy.\n3.	A good stretch for the inner thighs, groins and knees, improving flexibility in the groin and hip region.\n4.	Stimulates the heart and improves general circulation.\n5.	Keeps the reproductive system healthy.\n</string>
     <string name="wall_resisting_single_leg_calf_raise_left_benefit">\n1.	Make a stronger leg.\n2.	It helps to reduce fat on thigh.\n3.	It helps to lower your risk for black injuries, black pain and back strain while performing other exercises or routine activities.\n4.	If you play sports, building these muscles also helps you increase your agility and endurance on the playing field by helping you stabilize fast direction changes and helps you maintain balance.\n</string>
     <string name="wall_resisting_single_leg_calf_raise_right_benefit">\n1.	Make a stronger leg.\n2.	It helps to reduce fat on thigh.\n3.	It helps to lower your risk for black injuries, black pain and back strain while performing other exercises or routine activities.\n4.	If you play sports, building these muscles also helps you increase your agility and endurance on the playing field by helping you stabilize fast direction changes and helps you maintain balance.\n</string>
+    <!-- TODO: Remove or change this placeholder text -->
 
 
 </resources>

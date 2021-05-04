@@ -40,7 +40,6 @@
         android:textAlignment="center"
         android:background="@drawable/button_round"
         android:layout_marginTop="40dp"
-        android:id="@+id/login"
         android:onClick="login"/>
 
 
